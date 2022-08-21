@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+ 
+    html, body {
+      width: 1440px;
+      background-color: hsl(212, 45%, 89%);
+    }
+
+    .wrapper {
+      text-align: center;
+      margin-top: 100px;
+    }
+
+    .white {
+  
+      display: inline-block;
+      position: relative;
+      height: 440px;
+      width: 280px;
+      text-align: center;
+      border-radius: 20px;
+      background-color: hsl(0, 0%, 100%);
+    }
+
+    img {
+      text-align: center;
+      border-radius: 20px;
+      max-width: 250px;
+      padding-top: 10px;
+      
+    }
+
+     p {
+      text-align: center;
+    }
+    
+    .p1 {
+      padding-top: 10px;
+      font-size: 20px;
+      font-weight: 700;
+      color: hsl(218, 44%, 22%);
+    }
+    .p2 {
+      font-size: 15px;
+  color: hsl(220, 15%, 55%);
+      font-weight: 400;
+    }
+
+    /* Mobile */
+    @media only screen and (max-width: 375px) {
+
+     * {
+      margin: 0;
+      padding: 0;
+     }
+
+     html, body {
+      width: 100%;
+     }
+
+     .wrapper {
+      text-align: center;
+      margin: 40px auto;
+     }
+
+     
+     .p1, .p2 {
+      margin-top: 10px;
+     }
+
+}
+
+  </style>
+</head>
+<body> 
+
+    <div class="wrapper">
+      <div  class="white">
+        <img src="images/image-qr-code.png" alt="" srcset="">
+        <p class="p1">Improve your front-end <br> skills by building projects</p>
+        <p class="p2">scan the QR code to visit Frontend <br> Mentor and take your coding skill to <br> the next levels  </p>
+      </div>
+
+      <div class="attribution">
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"></a>. 
+       <a href="#">Coded by Mauana Royyan Tsubaisa</a>.
+    </div>
+    </div>
+
+</body>
+</html>
